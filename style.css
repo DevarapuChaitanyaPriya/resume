@@ -4,26 +4,22 @@ body {
   padding: 0;
   background-color: #f5f5f5;
 }
-
 .resume {
   max-width: 800px;
   background-color: #ffdfdd;
   margin: 10px auto;
   box-shadow: 10px 10px 100px #ffdfdd;
 }
-
 .container {
   max-width: 800px;
   margin: 20px auto;
   background-color: #ffffff;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
-
 .header h4 {
   padding: 0;
   margin: 0;
 }
-
 .header {
   display: flex;
   justify-content: space-between;
@@ -39,14 +35,10 @@ body {
   border-radius: 50%;
 }
 
-.heading {
-  flex: 1;
-  padding-left: 10px;
-}
-
 .heading h1 {
   margin: 0;
   padding: 0;
+  padding-left: 10px;
   font-size: 28px;
   font-weight: bold;
   color: #2c3e50;
@@ -55,6 +47,7 @@ body {
 .heading p {
   margin: 0;
   padding: 0;
+  padding-left: 10px;
   font-size: 14px;
   color: #2c3e50;
 }
@@ -62,12 +55,10 @@ body {
 .contact-info {
   text-align: left;
 }
-
 .contact-info h4 {
   margin-bottom: 10px;
   color: #2c3e50;
 }
-
 .contact-info p {
   margin-left: 0;
   margin-top: 0;
@@ -79,15 +70,13 @@ body {
 .contact-info a {
   color: #0d2fd8a6;
   text-decoration: none;
+  /* margin-left: 10px; */
 }
-
 .links {
   padding-top: 5px;
 }
-
 .main {
   display: flex;
-  flex-wrap: wrap;
   gap: 20px;
   padding: 20px;
 }
@@ -106,7 +95,6 @@ body {
   margin-bottom: 20px;
   font-size: 20px;
 }
-
 .left-column span,
 .right-column span {
   background-color: #ffdfdd;
@@ -134,7 +122,6 @@ body {
   padding-left: 20px;
   margin-bottom: 10px;
 }
-
 .sub-ed p {
   margin: 0;
 }
@@ -146,20 +133,7 @@ body {
   position: absolute;
   left: 0;
 }
-
 li {
   font-size: 14px;
   text-align: justify;
-}
-
-@media (max-width: 600px) {
-  .main {
-    flex-direction: column;
-  }
-
-  .left-column,
-  .right-column {
-    flex: none;
-    width: 100%;
-  }
 }
