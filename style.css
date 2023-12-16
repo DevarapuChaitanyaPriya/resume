@@ -151,3 +151,15 @@ li {
   font-size: 14px;
   text-align: justify;
 }
+
+@media only screen and (max-width: 600px) {
+  .main {
+    flex-direction: column;
+  }
+
+  .left-column,
+  .right-column {
+    flex: none;
+    width: 100%;
+  }
+}
